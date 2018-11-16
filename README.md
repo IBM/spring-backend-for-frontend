@@ -1,4 +1,5 @@
-## Backend For Frontend (BFF)
+# Create and deploy a Java Backend For Frontend (BFF) using Spring
+
 IBM Cloud BFF Starter in Java
 
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
