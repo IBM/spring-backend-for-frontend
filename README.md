@@ -1,9 +1,9 @@
+[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
+[![Platform](https://img.shields.io/badge/platform-java-lightgrey.svg?style=flat)](https://www.ibm.com/developerworks/learn/java/)
+
 # Create and deploy a Java Backend For Frontend (BFF) using Spring
 
 IBM Cloud BFF Starter in Java
-
-[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
-[![Platform](https://img.shields.io/badge/platform-java-lightgrey.svg?style=flat)](https://www.ibm.com/developerworks/learn/java/)
 
 ### Table of Contents
 * [Summary](#summary)
