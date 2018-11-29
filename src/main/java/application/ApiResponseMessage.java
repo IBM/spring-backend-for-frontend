@@ -2,7 +2,7 @@ package application;
 
 import org.springframework.http.HttpStatus;
 
-@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2018-11-15T21:59:07.411Z")
+@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2018-11-29T18:52:28.988Z")
 
 @javax.xml.bind.annotation.XmlRootElement
 public class ApiResponseMessage<T> {

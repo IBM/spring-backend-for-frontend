@@ -45,6 +45,5 @@ dockerfile-tools : "Dockerfile-tools"
 
 # The relative path to the helm chart used for Kubernetes deployment
 chart-path : "chart/springbackendforfrontend"
-ibm-generated-id : "3e9b6392-bc82-4d3c-acd4-dc8e578655c6"
-ibm-cloud-app-id : "0214901c-7e12-4ff0-8c6f-fc0678185a42"
+
 credentials-filepath : "src/main/resources/application-local.properties, src/main/resources/localdev-config.json"
