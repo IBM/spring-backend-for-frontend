@@ -3,6 +3,8 @@
 
 # Create and deploy a Java Backend For Frontend (BFF) using Spring
 
+> We have similar patterns available for [Node.js](https://github.com/IBM/nodejs-backend-for-frontend), [Swift](https://github.com/IBM/swift-backend-for-frontend), and [Java Liberty](https://github.com/IBM/java-liberty-backend-for-frontend) as well!
+
 The IBM Cloud BFF Starter in Java provides a starting point for creating Java BFF applications running on [Spring](https://spring.io/).
 
 ![](doc/source/images/architecture.png)
