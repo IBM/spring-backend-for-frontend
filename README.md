@@ -5,6 +5,8 @@
 
 The IBM Cloud BFF Starter in Java provides a starting point for creating Java BFF applications running on [Spring](https://spring.io/).
 
+![](doc/source/images/architecture.png)
+
 To deploy this application to IBM Cloud using a toolchain click the **Create Toolchain** button.
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
 
