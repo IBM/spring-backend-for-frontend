@@ -1,6 +1,6 @@
 package application;
 
-@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2018-11-29T18:57:45.335Z")
+@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2018-11-29T18:58:12.883Z")
 
 public class NotFoundException extends ApiException {
     private int code;
