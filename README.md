@@ -45,7 +45,7 @@ Ensure you have the required development tools installed:
 
 ### 2. Project contents
 
-The BFF application has a health endpoint which is accessible at `<host>:<port>/health`. The ports are set to the defaults of 8080 for http and 8443 for https and are exposed to the CLI in the cli-config.yml file.
+The BFF application has a health endpoint which is accessible at `<host>:<port>/health`. The ports are set to the defaults of `8080` for HTTP and `8443` for HTTPS and are exposed to the CLI in the `cli-config.yml` file.
 
 The project contains IBM Cloud specific files that are used to deploy the application as part of a IBM Cloud DevOps flow. The `.bluemix` directory contains files used to define the IBM Cloud toolchain and pipeline for your application. The `manifest.yml` file specifies the name of your application in IBM Cloud, the timeout value during deployment and which services to bind to.
 
