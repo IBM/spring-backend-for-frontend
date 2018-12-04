@@ -30,31 +30,28 @@ To deploy this application to IBM Cloud using a toolchain click the **Create Too
 
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
 
-1. Requirements
-1. Configuration
-1. Project contents
-1. Run
+1. [Install development tools](#1-install-development-tools)
+1. [Project contents](#2-project-contents)
+1. [Run](#3-run)
 
-### 1. Requirements
+### 1. Install development tools
+
+Ensure you have the required development tools installed:
 
 * [Maven](https://maven.apache.org/install.html)
 * Java 8: Any compliant JVM should work.
   * [Java 8 JDK from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   * [Java 8 JDK from IBM (AIX, Linux, z/OS, IBM i)](http://www.ibm.com/developerworks/java/jdk/)
 
-### 2. Configuration
-
-Capabilities are provided through dependencies in the pom.xml file.
-
-### 3. Project contents
+### 2. Project contents
 
 The BFF application has a health endpoint which is accessible at `<host>:<port>/health`. The ports are set to the defaults of 8080 for http and 8443 for https and are exposed to the CLI in the cli-config.yml file.
 
 The project contains IBM Cloud specific files that are used to deploy the application as part of a IBM Cloud DevOps flow. The `.bluemix` directory contains files used to define the IBM Cloud toolchain and pipeline for your application. The `manifest.yml` file specifies the name of your application in IBM Cloud, the timeout value during deployment and which services to bind to.
 
-Credentials are either taken from the VCAP_SERVICES environment variable that IBM Cloud provides or from environment variables passed in by the config file `src/main/resources/application-local.properties`.
+Credentials are either taken from the `VCAP_SERVICES` environment variable that IBM Cloud provides or from environment variables passed in by the config file `src/main/resources/application-local.properties`.
 
-### 4. Run
+### 3. Run
 
 To build and run the application:
 
