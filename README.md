@@ -24,21 +24,29 @@ Learn more about the Backend for Frontend pattern in this tech talk:
 
 [![BFFs and GraphQL, terms you should know and why](https://img.youtube.com/vi/B5OdK21ZevI/maxresdefault.jpg)](https://www.youtube.com/watch?v=B5OdK21ZevI)
 
-## Requirements
+## Steps
 
 To deploy this application to IBM Cloud using a toolchain click the **Create Toolchain** button.
+
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
+
+1. Requirements
+1. Configuration
+1. Project contents
+1. Run
+
+### 1. Requirements
 
 * [Maven](https://maven.apache.org/install.html)
 * Java 8: Any compliant JVM should work.
   * [Java 8 JDK from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   * [Java 8 JDK from IBM (AIX, Linux, z/OS, IBM i)](http://www.ibm.com/developerworks/java/jdk/)
 
-## Configuration
+### 2. Configuration
 
 Capabilities are provided through dependencies in the pom.xml file.
 
-## Project contents
+### 3. Project contents
 
 The BFF application has a health endpoint which is accessible at `<host>:<port>/health`. The ports are set to the defaults of 8080 for http and 8443 for https and are exposed to the CLI in the cli-config.yml file.
 
@@ -46,7 +54,7 @@ The project contains IBM Cloud specific files that are used to deploy the applic
 
 Credentials are either taken from the VCAP_SERVICES environment variable that IBM Cloud provides or from environment variables passed in by the config file `src/main/resources/application-local.properties`.
 
-## Run
+### 4. Run
 
 To build and run the application:
 
@@ -55,13 +63,11 @@ To build and run the application:
 
 To run the application in Docker use the Docker file called `Dockerfile`. If you do not want to install Maven locally you can use `Dockerfile-tools` to build a container with Maven installed.
 
-## Endpoints
-
 The application exposes the following endpoints:
 
-* Health endpoint: `<host>:<port>/health` e.g. http://localhost:8080/health
+* Health endpoint: `<host>:<port>/health` (for example, `http://localhost:8080/health`).
 
-The ports are set in the pom.xml file and exposed to the CLI in the cli-config.yml file.
+The ports are set in the `pom.xml` file and exposed to the CLI in the `cli-config.yml` file.
 
 ## License
 
