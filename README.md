@@ -26,9 +26,7 @@ Learn more about the Backend for Frontend pattern in this tech talk:
 
 ## Steps
 
-To deploy this application to IBM Cloud using a toolchain click the **Create Toolchain** button.
-
-[![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
+> As an alternative to the steps below, you can [create this project as a starter kit](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=22179578-addd-392f-bbf8-b1b128dd9cb8&tenantNavMode=true) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
 
 1. [Install development tools](#1-install-development-tools)
 1. [Project contents](#2-project-contents)
