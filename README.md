@@ -26,7 +26,7 @@ Learn more about the Backend for Frontend pattern in this tech talk:
 
 ## Steps
 
-> As an alternative to the steps below, you can [create this project as a starter kit](https://cloud.ibm.com/developer/appservice/apps/e19cb723-8e98-406c-b934-ed9ebd8caab5) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
+> As an alternative to the steps below, you can [create this project as a starter kit](https://cloud.ibm.com/developer/appservice/create-app?starterKit=05f26bad-b3db-3dfb-bb16-2762b0aef2da) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
 
 1. [Install development tools](#1-install-development-tools)
 1. [Project contents](#2-project-contents)
