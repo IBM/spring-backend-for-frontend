@@ -1,6 +1,6 @@
 package application;
 
-@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-01-25T16:58:00.640Z")
+@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-01-25T21:29:25.926Z")
 
 public class ApiException extends Exception{
     private int code;
