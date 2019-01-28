@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
-@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-01-25T16:58:00.640Z")
+@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-01-25T21:29:25.926Z")
 
 @Controller
 public class ProductApiController implements ProductApi {
