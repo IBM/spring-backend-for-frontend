@@ -63,6 +63,10 @@ stages:
   - type: job
     stage: Build Stage
     job: Build
+  triggers:
+  - type: stage
+  permission:
+    execute: TOOLCHAIN_ADMINS
   properties:
   - name: CF_HOSTNAME
     value: "${CF_HOSTNAME}"
@@ -70,21 +74,17 @@ stages:
   - name: CF_DOMAIN
     value: "${CF_DOMAIN}"
     type: text
-  triggers:
-  - type: stage
-  permission:
-    execute: TOOLCHAIN_ADMINS
   jobs:
   - name: Test
     type: tester
     script: |-
       #!/bin/sh
       apk add --no-cache curl
-      if [ "$(curl -Is http://${CF_HOSTNAME}.${CF_DOMAIN}/health  --connect-timeout 3 --max-time 5 --retry 3 --retry-max-time 30 | head -n 1 | grep 200)" != "" ]; then
+      if [ "$(curl -Is http://not-used.not-used.net/health  --connect-timeout 3 --max-time 5 --retry 3 --retry-max-time 30 | head -n 1 | grep 200)" != "" ]; then
         echo "Successfully reached health endpoint"
         echo "====================================================================="
       else
-        echo "Could not reach health endpoint: http://${CF_HOSTNAME}.${CF_DOMAIN}/health"
+        echo "Could not reach health endpoint: http://not-used.not-used.net/health"
         exit 1;
       fi;
     test_type: customimage
