@@ -23,7 +23,7 @@ import java.util.List;
 import org.springframework.validation.annotation.Validated;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
-@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-03-06T19:13:36.107Z")
+@javax.annotation.Generated(value = "com.ibm.mobile.sdkgen.platform.JavaSpringBindingsConfig", date = "2019-03-07T14:51:57.973Z")
 
 @Api(value = "product", description = "the product API")
 public interface ProductApi {

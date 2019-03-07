@@ -56,7 +56,7 @@ stages:
       api_key: ${API_KEY}
     script: |-
       #!/bin/bash
-      cf push "${CF_APP}" -p target/springbackendforfrontend-1.0-SNAPSHOT.jar --hostname "${CF_HOSTNAME}" -d "${CF_DOMAIN}"
+      cf push "${CF_APP}" -p target/${CF_APP}-1.0-SNAPSHOT.jar --hostname "${CF_HOSTNAME}" -d "${CF_DOMAIN}"
       # cf logs "${CF_APP}" --recent
 - name: Health Stage
   inputs:
