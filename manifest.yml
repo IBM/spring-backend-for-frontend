@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: springbackendforfrontend
+  buildpack: java_buildpack
+  path: ./target/springbackendforfrontend-1.0-SNAPSHOT.jar
+  memory: 1024M
+  domain: not-used.net
+  host: not-used
+  env:
+    OPENAPI_SPEC : /swagger/api
