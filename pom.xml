@@ -75,6 +75,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>{{app-name}}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
